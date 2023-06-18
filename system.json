@@ -2,11 +2,11 @@
     "id": "UnRPG",
     "title": "Untitled RPG",
     "description": "A custom RPG inspired by systems and features of other RPGs that I like, but supplimented with my own ideas.",
-    "version": "0.02",
+    "version": "11.302",
     "compatibility": {
-      "minimum": "10.291",
-      "verified": "10.291",
-      "maximum": "10.291"
+      "minimum": "11.302",
+      "verified": "11.302",
+      "maximum": "11.302"
     },
     "authors": [
       {
