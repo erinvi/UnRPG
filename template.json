@@ -164,15 +164,15 @@
         "price": 0,
         "weight": 0,
         "castCost": "1A",
-        "manaCost": 0,
+        "manaCost": 0
 
       },
       "item": {
-        "templates": ["rarity", "price", "weight"],
+        "templates": ["rarity", "price", "weight"]
         
       },
       "spell": {
-        "templates": ["complexity", "castCost", "manaCost"],
+        "templates": ["complexity", "castCost", "manaCost"]
       }
     }
 }
