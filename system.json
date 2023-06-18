@@ -1,0 +1,25 @@
+{
+    "name": "UnRPG",
+    "title": "Unnamed RPG",
+    "description": "A custom system inspired by features I enjoy from other RPG systems and some of my own to fill in the gaps.",
+    "author": "ErinVi",
+    "version": "0.01",
+    "minimumCoreVersion": "11.302",
+    "compatibleCoreVersion": "11.302",
+    "esmodules": [
+        "UnRPG.js"
+    ],
+    "styles":[
+        "UnRPG.css"
+    ],
+    "packs":[
+        
+    ],
+    "languages":[
+
+    ],
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "wounds",
+    "initiative": "1d20 + @initBonus",
+ }
