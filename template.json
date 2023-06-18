@@ -13,7 +13,7 @@
             "ArmorClass": 0,
             "DodgeClass": 0,
             "Luck": 0,
-            // Damage Resistances
+
             "resAcid": 0,
             "resArcane": 0,
             "resCold": 0,
