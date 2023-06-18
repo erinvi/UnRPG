@@ -13,39 +13,7 @@
         "name": "Erin"
       }
     ],
- /*   "scripts": [
-      "scripts/system-script-1.js",
-      "scripts/system-script-2.js"
-    ],
-    "esmodules": [
-      "scripts/system-module-1.mjs"
-    ],
-    "styles": [
-      "styles/system-styles-1.css",
-      "styles/system-styles-2.css"
-    ],
-    "packs": [
-      {
-        "name": "creatures",
-        "label": "Creatures",
-        "path": "packs/creatures.db",
-        "type": "Actor"
-      },
-      {
-        "name": "items",
-        "label": "Items",
-        "path": "packs/items.db",
-        "type": "Item"
-      }
-    ],
-  "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-      }
-    ],
-*/
+
     "socket": false,
     "initiative": "1d20 + @initBonus",
     "gridDistance": 1,
