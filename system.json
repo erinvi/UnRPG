@@ -52,6 +52,6 @@
     "primaryTokenAttribute": "resources.health",
     "secondaryTokenAttribute": "resources.barrier",
     "url": "https://github.com/erinvi/UnRPG.git",
-    "manifest": "https://github.com/erinvi/UnRPG/blob/e23e7b94bae9a2bdc9407113047567a9dce0928e/system.json",
+    "manifest": "https://raw.githubusercontent.com/erinvi/UnRPG/main/system.json",
     "download": "https://github.com/erinvi/UnRPG/archive/refs/heads/main.zip"
   }
