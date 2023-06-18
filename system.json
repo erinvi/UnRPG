@@ -1,25 +1,57 @@
 {
-    "name": "UnRPG",
-    "title": "Unnamed RPG",
-    "description": "A custom system inspired by features I enjoy from other RPG systems and some of my own to fill in the gaps.",
-    "author": "ErinVi",
-    "version": "0.01",
-    "minimumCoreVersion": "11.302",
-    "compatibleCoreVersion": "11.302",
+    "id": "UnRPG",
+    "title": "Untitled RPG",
+    "description": "A custom RPG inspired by systems and features of other RPGs that I like, but supplimented with my own ideas.",
+    "version": "0.02",
+    "compatibility": {
+      "minimum": "10.291",
+      "verified": "10.291",
+      "maximum": "10.291"
+    },
+    "authors": [
+      {
+        "name": "Erin",
+      }
+    ],
+    "scripts": [
+      "scripts/system-script-1.js",
+      "scripts/system-script-2.js"
+    ],
     "esmodules": [
-        "UnRPG.js"
+      "scripts/system-module-1.mjs"
     ],
-    "styles":[
-        "UnRPG.css"
+    "styles": [
+      "styles/system-styles-1.css",
+      "styles/system-styles-2.css"
     ],
-    "packs":[
-        
+    "packs": [
+      {
+        "name": "creatures",
+        "label": "Creatures",
+        "path": "packs/creatures.db",
+        "type": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "Items",
+        "path": "packs/items.db",
+        "type": "Item"
+      }
     ],
-    "languages":[
-
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
     ],
+    "socket": false,
+    "initiative": "1d20 + @initBonus",
     "gridDistance": 1,
     "gridUnits": "m",
-    "primaryTokenAttribute": "wounds",
-    "initiative": "1d20 + @initBonus"
- }
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.barrier",
+    "url": "https://github.com/erinvi/UnRPG.git",
+    "manifest": "https://github.com/erinvi/UnRPG/blob/e23e7b94bae9a2bdc9407113047567a9dce0928e/system.json",
+    "download": "https://github.com/erinvi/UnRPG/archive/refs/heads/main.zip"
+  }
